@@ -1,7 +1,15 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import gvrCover from '@/assets/gvr/cover.asset.json';
 const Projects = () => {
   const projects = [{
+    title: "Process Automation Consulting for Greater Vancouver REALTORS®",
+    description: "Developed modular Python, Pandas, and Selenium automations to replace the manual Privacy Notice and Consent workflow, integrating with Paragon MLS and saving ~780 staff hours annually.",
+    image: gvrCover.url,
+    tags: ["Python", "Pandas", "Selenium", "Automation"],
+    url: "/projects/gvr-automation",
+    isInternalLink: true
+  }, {
     title: "Power BI Dashboard for Prospective Homeowners",
     description: "Developed an interactive dashboard that helps prospective homeowners compare neighborhoods by VPD crime rates. Utilized SQL and Excel for data cleaning and modeling, achieving actionable insights for sales optimization.",
     image: "/lovable-uploads/974c6d4e-0b3e-4ff3-a16b-f27cd38e9d40.png",
